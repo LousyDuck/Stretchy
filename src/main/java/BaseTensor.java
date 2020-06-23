@@ -1,6 +1,6 @@
 import java.util.List;
 
-public abstract class BaseTensor<T extends  TensorValue<?>> implements TensorValue<List<T>> {
+public abstract class BaseTensor<T extends  TensorValue> implements TensorValue {
     private final List<T> elements;
 
     protected BaseTensor(List<T> elements) {
